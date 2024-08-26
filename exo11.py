@@ -6,6 +6,7 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-
-print(is_prime(2))
-
+for i in range(25,50):
+   test=is_prime(i)
+   if test==True:
+       print ("the number (",i,") is prime number")
